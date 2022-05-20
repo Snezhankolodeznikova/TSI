@@ -1,0 +1,113 @@
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+label{
+	color: white;
+}
+
+body {
+	height: 100vh;
+}
+
+.site {
+	height: 100%;
+	background-image: url("..//img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	height: 80px;
+	background-color: #D87171;
+	display: flex;
+}
+
+header nav {
+	font-size: 24px;
+	width: auto;
+	margin: auto;
+}
+
+header nav a {
+	margin-right: 30px;
+}
+
+header div {
+	font-size: 24px;
+	width: auto;
+	margin: auto;
+}
+
+main {
+	margin-top: 2%;
+	font-size: 20px;
+	display: flex;
+}
+
+main form {
+	margin-left: 20%;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background-color: #D87171;
+}
+
+main form input {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #D87171;
+	color: white;
+	border-radius: 50px;
+	padding: 5px 10px;
+	border: 3px solid #FFFFFF;
+}
+
+footer {
+	position: absolute;
+	display: flex;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	margin: auto;
+	background-color: #D87171;
+	color: white;
+	font-size: 26px;
+	text-align: center;
+}
+
+footer div {
+	margin: auto;
+}
+
+@media only screen and (max-width : 768px) {
+	header nav {
+		display: none;
+	}
+
+	header div {
+		font-size: 14px;
+	}
+
+	main {
+		text-align: center;
+        margin: 50px;
+        display: block;
+		font-size: 14px;
+	}
+
+	main form {
+		text-align: center;
+        width: auto;
+        margin: 0;
+	}
+
+	footer {
+		font-size: 16px;
+	}
+}
